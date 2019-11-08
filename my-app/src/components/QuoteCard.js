@@ -11,10 +11,15 @@ function QuoteCard (props) {
   <blockquote>
    {props.quote}
   </blockquote>
+  <p>
   <cite>{props.character}</cite>
+  <span>&#9733;</span>
+</p>
 </figcaption>
 </figure>
 );
 }
+
+
 
 export default QuoteCard;
